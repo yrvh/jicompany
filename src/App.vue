@@ -1,32 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <keep-alive exclude="UpIdcard">
+      <router-view/>
+    </keep-alive>
+
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import MainTabbar from "@/components/content/MainTabbar/MainTabbar";
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  name: 'App',
+  components: {
+    MainTabbar
   }
+}
+</script>
+
+<style>
+@import "assets/css/base.css";
+@import "assets/icon/iconfont.css";
+
+#app {
+  height: 100vh;
+  /*background-color: var(--cl-tF8);*/
+  /*width: 375px;*/
+  /*background-image: url("assets/img/bg.jpg");*/
 }
 </style>

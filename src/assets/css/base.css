@@ -1,0 +1,82 @@
+@import "./normalize.css";
+
+/* 自定义的初始化 样式*/
+:root {
+  --cl-text: #222222;   /* 默认的字体颜色 */
+  --cl-text-theme: #1079F2;   /* 激活的文字颜色  D3CFFC*/
+  --cl-text-dark: #180233;   /* 较深的文字颜色 */
+  --cl-textF: #ffffff;
+  --cl-textF0: #f0f0f0;
+  --cl-textF8: #f8f8f8;
+  --cl-textE: #EEEEEE;
+  --cl-textD: #DDDDDD;
+  --cl-texta: #aaaaaa;
+  --cl-text9: #999999;
+  --cl-text6: #666666;
+  --cl-textP: #EE3333;
+  --cl-textL: #14929C;
+
+  --ft-size: 14px;   /* 默认字体大小 */
+  --ln-height: 1.5;   /* 默认行高 */
+
+
+
+  /* 通用的背景颜色 */
+  --cl-tF: #ffffff;
+  --cl-tF0: #f0f0f0;
+  --cl-tF8: #f8f8f8;
+  --cl-tE: #EEEEEE; 
+  --cl-tD: #DDDDDD; 
+  --cl-ta: #aaaaaa; 
+  --cl-t9: #999999; 
+  --cl-t6: #666666;
+  --cl-bg-theme: #1079F2;   /*180233  090118 主题背景颜色 */
+  --cl-bg-yel: #FFCA7E;   /* 自定义的黄色背景 */
+  --cl-bg-op: rgba(230,230,230,0.4  );   /* 透明的背景颜色 */
+  
+
+}
+
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-seriiif;
+  user-select: none;   /* 禁止用户在页面上选中文字/图片等等 */
+  -webkit-tap-highlight-color: transparent;   /* webkit是苹果浏览器, tap点击,highlight背景高亮, color颜色用数值调节 */
+  background-color: var(--cl-tF0);
+  color: var(--cl-text);
+  width: 100vw;
+}
+
+a {
+  color: var(--cl-text);
+  text-decoration: none;
+}
+
+.clear-fix::after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.clear-fix {
+  zoom: 1;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+
