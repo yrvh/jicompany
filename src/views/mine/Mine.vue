@@ -19,10 +19,13 @@
       </div>
     </div>
 
-    <van-cell title="设置" is-link :border="false"></van-cell>
-    <van-cell title="我的小区" is-link :border="false"></van-cell>
-    <van-cell title="客服" is-link :border="false"></van-cell>
+    <van-cell title="个人信息" is-link :border="false"></van-cell>
+    <van-cell title="员工管理" is-link :border="false"></van-cell>
+    <van-cell title="小区管理" is-link :border="false"></van-cell>
+    <van-cell title="商品管理" is-link :border="false"></van-cell>
+    <van-cell title="劳务价格设定" is-link :border="false"></van-cell>
     <van-cell title="账户与安全" is-link :border="false"></van-cell>
+    <!--    <van-cell title="收入统计" is-link :border="false"></van-cell>-->
 
     <van-button size="large" color="#ee3333" block>退出登录</van-button>
 

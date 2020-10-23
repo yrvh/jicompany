@@ -19,6 +19,7 @@ export default {
 <style>
 
 #main {
+  box-sizing: border-box;
   /*height: 100vh;*/
   /*background-color: var(--cl-tF8);*/
   padding-bottom: 50px;

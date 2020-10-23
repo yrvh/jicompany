@@ -23,6 +23,8 @@ export default {
 @import "assets/icon/iconfont.css";
 
 #app {
+  box-sizing: border-box;
+  /*width: 100vw;*/
   height: 100vh;
   /*background-color: var(--cl-tF8);*/
   /*width: 375px;*/

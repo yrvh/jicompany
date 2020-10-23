@@ -25,6 +25,8 @@ export default {
 
 <style scoped>
 .tabbar {
+  width: 100vw;
+  box-sizing: border-box;
   display: flex;
   /*background-color: #f6f6f6;*/
   background-color: rgba(230,230,230,0.5);

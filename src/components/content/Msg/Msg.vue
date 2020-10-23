@@ -50,6 +50,7 @@ export default {
     line-height: 15px;
     text-align: center;
     background-color: #ee3333;
+    color: #fff;
     border-radius: 50%;
     font-size: 12px;
   }
